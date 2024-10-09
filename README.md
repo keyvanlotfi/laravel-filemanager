@@ -39,7 +39,9 @@ Features:
 
     php artisan vendor:publish --tag=public
     
-it will create a folder named (vendor) in your laravel public path and (filemanager) folder inside it
+it will create a folder named (vendor) in your laravel public path and (filemanager) folder inside it.
+
+if you changed your public folder manually, be sure to place this vendor folder inside your public folder.
 
 
 ## How to use
