@@ -39,7 +39,7 @@ class FileManagerController
     {
         // Extract old file data and new name
         $item = $request->input('item');
-        $newName = $request->input('new_name');
+        $newName = $request->input('folder_name');
         $oldPath = $item['path'];
         $type = $item['type'];
 
@@ -78,7 +78,6 @@ class FileManagerController
     {
         return Storage::disk($this->disk)->download($request->path);
     }
-
 
     public function createFolder(CreateDirectoryRequest  $request)
     {
