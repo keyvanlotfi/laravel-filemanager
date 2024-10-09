@@ -1,0 +1,42 @@
+{
+    "name": "keyvanlotfi/laravel-filemanager",
+    "description": "A fast, simple and ajax file manager for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "KeyvanLotfi\\FileManager\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^8.0|^9.0|^10.0"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://github.com/keyvanlotfi/laravel-filemanager"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "KeyvanLotfi\\FileManager\\Providers\\FileManagerServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Keyvan Lotfi Kamran",
+            "email": "k1cgmaster@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/keyvanlotfi/laravel-filemanager/issues",
+        "source": "https://github.com/keyvanlotfi/laravel-filemanager"
+    },
+    "keywords": ["laravel", "file manager", "file upload", "file system"],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

@@ -1,0 +1,20 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^5.1.2",
+        "axios": "^1.6.4",
+        "laravel-vite-plugin": "^1.0",
+        "postcss": "^8.4.41",
+        "prettier": "^2.8.4",
+        "vite": "^5.0"
+    },
+    "dependencies": {
+        "vue": "^3.4.36",
+        "vue2-dropzone-vue3": "^1.1.0"
+    }
+}
