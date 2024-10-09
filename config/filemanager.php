@@ -7,6 +7,5 @@ return [
     'max_upload_size' => 20, // in Mb
     'middlewares' => [
 //        'auth',
-//        'web'
     ]
 ];
