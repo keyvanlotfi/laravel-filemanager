@@ -1,0 +1,168 @@
+.sidebar{
+    background: #e4e5ed;
+    padding: 10px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+input:focus{
+    box-shadow: none !important;
+}
+
+.font-bold{
+    font-weight: bold !important;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #e1e1e1;
+    padding: 6px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.selected{
+    background-color: #e9f5ff;
+}
+
+.folder_item .icon{
+    color: #5bb7ff;
+    font-size: 76px;
+}
+
+.file_item .icon{
+    color: #decca0;
+    font-size: 76px;
+}
+
+.loading_blur{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: #4884b1;
+    z-index: 10000;
+    backdrop-filter: blur(2px);
+    background: rgba(41, 45, 60, .51);
+}
+
+.all_center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.file-item:hover {
+    background-color: #e6f7ff;
+}
+
+.thumbnail {
+    width: 95px;
+    height: auto;
+}
+
+.add_button{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 100%;
+    background-color: #54acf2;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.add_button2{
+    position: fixed;
+    right: 30px;
+    bottom: 98px;
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 100%;
+    background-color: #54acf2;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.add_button:hover{
+    width: 65px;
+    height: 65px;
+}
+
+
+.context-menu {
+    position: absolute;
+    background-color: white;
+    border-radius: 5px;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 23%);
+    width: 150px;
+    padding: 10px;
+}
+
+.context-menu li:hover {
+    background-color: #f1f1f1;
+}
+
+
+
+
+.modal-mask {
+    position: fixed;
+    z-index: 9998;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    transition: opacity .3s ease;
+}
+
+.modal-wrapper {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.modal-container {
+    width: 400px;
+    max-width: 90%;
+    max-height: 90%;
+    margin: 0 auto;
+    overflow-y: auto;
+    padding: 27px 24px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
+    transition: all .3s ease;
+}
+
+.modal-container .close{
+    position: absolute;
+    top: 11px;
+    right: 12px;
+    font-size: 19px;
+    cursor: pointer;
+}

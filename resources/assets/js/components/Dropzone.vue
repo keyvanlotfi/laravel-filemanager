@@ -24,7 +24,9 @@
 </style>
 
 <script>
-import vueDropzone from 'vue2-dropzone-vue3'
+import vueDropzone from 'vue2-dropzone-vue3';
+// import 'vue2-dropzone-vue3/dist/vue2Dropzone.css';
+
 
 export default {
     props: ['prefix', 'path'],
@@ -39,7 +41,9 @@ export default {
                 thumbnailHeight: 90,
                 thumbnailMethod: 'contain',
                 maxFilesize: 20,
-                headers: { "My-Awesome-Header": "header value" }
+                headers: {
+                    "X-CSRF-TOKEN": document.querySelector('meta[name="csrf-token"]').getAttribute('content')
+                }
             }
         }
     },

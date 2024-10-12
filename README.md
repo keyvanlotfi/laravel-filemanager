@@ -3,7 +3,7 @@ A fast, simple and ajax file manager for Laravel created with Vuejs 3
 
 Features:
 * Its fast, light, simple, beautiful and easy to use.
-* It is not complicated and consists of only one css and one js.
+* It is not complicated and consists of only some simple short css and one js.
 * It follows clean coding, SOLID principles and design patterns.
 * It supports defining middleware for routes in the config file.
 * it has responsive web design.

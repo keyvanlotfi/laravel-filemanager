@@ -32,6 +32,7 @@ class FileManagerServiceProvider extends ServiceProvider
 
 
         $this->publishes([
+            __DIR__.'/../../resources/assets/css/filemanager.css' => public_path('vendor/filemanager/css/filemanager.css'),
             __DIR__.'/../../resources/assets/css/style.css' => public_path('vendor/filemanager/css/style.css'),
             __DIR__.'/../../resources/assets/css/fontawesome.css' => public_path('vendor/filemanager/css/fontawesome.css'),
             __DIR__.'/../../resources/assets/css/bootstrap.min.css' => public_path('vendor/filemanager/css/bootstrap.min.css'),
