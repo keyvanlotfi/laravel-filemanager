@@ -25,8 +25,6 @@
 
 <script>
 import vueDropzone from 'vue2-dropzone-vue3';
-// import 'vue2-dropzone-vue3/dist/vue2Dropzone.css';
-
 
 export default {
     props: ['prefix', 'path'],

@@ -20,6 +20,7 @@
 </div>
 
 
+
 <script src="{{ asset('vendor/filemanager/js/app.js') }}"></script>
 {{--@vite(['resources/js/app.js'])--}}
 </body>
